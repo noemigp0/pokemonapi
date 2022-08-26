@@ -43,8 +43,6 @@ body {
   flex-direction: column;
   border-radius: 10px;
  
-  
- 
 }
 
 .pokemon-card img {
@@ -60,4 +58,33 @@ body {
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+
+.pokemodal {
+  background-color: rgba(256,256,0256,0.3);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pokemodal main {
+  background-color: #0e0101;
+  width: 30%;
+  min-height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+.pokemodal img {
+  height: 300px;
+  width: 300px;
 }
